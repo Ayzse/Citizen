@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Citizen</string>
+    <string name="intro_q1">Please enter your full name.</string>
+    <string name="intro_q2">Your registered voting address, or the address where you intend to register.</string>
+</resources>
