@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/home/doug/AndroidStudioProjects/Citizen/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/home/doug/AndroidStudioProjects/Citizen/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-v23/abc_control_background_material.xml"
+        "merged": "/home/doug/StudioProjects/Citizen/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/home/doug/.android/build-cache/c1d94eff82ef79f0656aef6c44c6a0fa8302a57b/output/res/drawable-v23/abc_control_background_material.xml"
     }
 ]

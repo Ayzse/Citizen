@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/aa_scene_root">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_prompt"
+        android:text="Enter your registered voting address, or your where you currently live if you don't have one"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_prompt"
+        android:id="@+id/street_address_1"
+        android:text="Street Address 1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/street_address_1"
+        android:id="@+id/street_address_2"
+        android:text="Street Address 2"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/street_address_2"
+        android:id="@+id/city"
+        android:text="City"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city"
+        android:id="@+id/state"
+        android:text="State"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/state"
+        android:id="@+id/zipcode"
+        android:text="Zipcode"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zipcode"
+        android:id="@+id/ask_address_previous"
+        android:text="Previous"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zipcode"
+        android:id="@+id/ask_address_finish"
+        android:layout_toRightOf="@id/ask_address_previous"
+        android:text="Finish"/>
+
+</RelativeLayout>

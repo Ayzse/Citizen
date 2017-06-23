@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/doug/AndroidStudioProjects/Citizen/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/home/doug/StudioProjects/Citizen/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/doug/AndroidStudioProjects/Citizen/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res/values/values.xml",
+                    "file": "/home/doug/.android/build-cache/c1280e84ab9cf2dc7f2af1a1e9db14d9dd8e5475/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

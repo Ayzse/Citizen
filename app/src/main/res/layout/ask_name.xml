@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/an_scene_root">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your first, last,
+         and preferred names."
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:id="@+id/ask_name_box"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name"
+        android:text="first name"
+        android:layout_below="@+id/ask_name_box"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name"
+        android:text="last name"
+        android:layout_below="@+id/first_name"
+        android:layout_alignLeft="@+id/first_name"
+        android:layout_alignStart="@+id/first_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/preferred_name"
+        android:text="preferred name"
+        android:layout_below="@+id/last_name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ask_name_previous"
+        android:text="Previous"
+        android:layout_alignBaseline="@+id/ask_name_next"
+        android:layout_alignBottom="@+id/ask_name_next"
+        android:layout_toLeftOf="@+id/preferred_name"
+        android:layout_toStartOf="@+id/preferred_name"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ask_name_next"
+        android:text="Next"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/preferred_name"
+        android:layout_toEndOf="@+id/preferred_name" />
+
+</RelativeLayout>

@@ -1,7 +1,7 @@
-#Sun Jun 18 02:35:57 CDT 2017
-base.0=/home/doug/AndroidStudioProjects/Citizen/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b463b76d3a53c4b5f41a9c1721f732683c244602
+#Thu Jun 22 22:25:49 CDT 2017
+base.0=/home/doug/StudioProjects/Citizen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f882d69585952d237c646b91001f6f25fe19af1a
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/home/doug/AndroidStudioProjects/Citizen/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_547fa7ba16bc7087154f6455085e5a5bb0e3bcfd/classes.dex
-base.1=/home/doug/AndroidStudioProjects/Citizen/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_547fa7ba16bc7087154f6455085e5a5bb0e3bcfd
-file.0=/home/doug/AndroidStudioProjects/Citizen/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b463b76d3a53c4b5f41a9c1721f732683c244602/classes.dex
+file.1=/home/doug/StudioProjects/Citizen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3648d5fbf183aefec41fcf6de83831fafe8d41bc/classes.dex
+base.1=/home/doug/StudioProjects/Citizen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3648d5fbf183aefec41fcf6de83831fafe8d41bc
+file.0=/home/doug/StudioProjects/Citizen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f882d69585952d237c646b91001f6f25fe19af1a/classes.dex

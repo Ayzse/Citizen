@@ -1,10 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/scene_root">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="116dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true">
+
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:id="@+id/Welcome"
+        android:textSize="50dp"/>
 
-</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to"
+        android:id="@+id/to"
+        android:layout_gravity="center"
+        android:layout_below="@+id/Welcome"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Citizen"
+        android:id="@+id/citizen"
+        android:layout_below="@+id/to"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/citizen"
+        android:text="Begin"
+        android:id="@+id/begin"/>
+
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>
